@@ -14,6 +14,7 @@ const App = () => {
     city:"faridabad"
 
   }
+  // in localstorge if we have to store object inside the localstroage we have tp store that in string
   localStorage.setItem('user' , JSON.stringify(user))
   localStorage.getItem(JSON.parse('user'))
   return (
